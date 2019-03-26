@@ -1,0 +1,35 @@
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03-2; Runtime version I-2014.03-2;  May  7 13:55 2018
+Time A        B        C        D        m  result
+Test Case 1
+   0 00000001 00000010 11111111 11111110 0 xxxxxxxx
+   0: 			done = 0
+  35: 			done = 1
+  45: 			done = 0
+ 130 00000001 00000010 11111111 11111110 0 11111111
+End Test Case 1
+Test Case 2
+ 130 11111110 00000001 00000001 00000100 1 11111111
+ 165: 			done = 1
+ 175: 			done = 0
+ 260 11111110 00000001 00000001 00000100 1 00000001
+End Test Case 2
+Test Case 3
+ 260 00000001 11111111 11111111 11111111 0 00000001
+ 295: 			done = 1
+ 305: 			done = 0
+ 390 00000001 11111111 11111111 11111111 0 11111111
+End Test Case 3
+Test Case 4
+ 390 11111111 00000001 11111111 00000001 1 11111111
+ 425: 			done = 1
+ 435: 			done = 0
+ 520 11111111 00000001 11111111 00000001 1 11111111
+End Test Case 4
+$finish called from file "test.v", line 67.
+$finish at simulation time                 5300
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 530000 ps
+CPU Time:      0.210 seconds;       Data structure size:   0.0Mb
+Mon May  7 13:55:24 2018
