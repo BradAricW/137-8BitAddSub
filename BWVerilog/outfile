@@ -1,0 +1,16 @@
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03-2; Runtime version I-2014.03-2;  Mar  7 13:43 2018
+Time a  b cin cout s
+   0 10 10 0 xx
+   0 z 00
+   1 01 10 1 00
+   1 z 10
+   2 11 01 0 10
+   3 11 01 0 10
+$finish called from file "tester.v", line 24.
+$finish at simulation time                    4
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 4
+CPU Time:      0.230 seconds;       Data structure size:   0.0Mb
+Wed Mar  7 13:43:30 2018
