@@ -1,0 +1,19 @@
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03-2; Runtime version I-2014.03-2;  Apr 18 14:12 2018
+Time 	A    	  B	   m  overflow		S
+   0 11111111 00000001 0	x		xxxxxxxx
+   0						x		xxxxxxxx
+  25 01111111 00000001 0	x		xxxxxxxx
+  50 11111111 11111111 0	x		xxxxxxxx
+  75 01010101 10101010 0	x		xxxxxxxx
+ 100 10000000 00000001 1	x		xxxxxxxx
+ 100						x		xxxxxxx1
+ 125 01101100 11001010 1	x		xxxxxxx1
+ 125						x		xxxxxxxx
+$finish called from file "tester.v", line 41.
+$finish at simulation time                 1750
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 175000 ps
+CPU Time:      0.520 seconds;       Data structure size:   0.0Mb
+Wed Apr 18 14:12:23 2018
